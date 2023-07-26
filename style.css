@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.component-holder {
+    margin-top: 7.5rem;
+    width: 33.375rem;
+    height: 33.25rem;
+    border-radius: 5.625rem;
+    box-shadow: 3px 5px 29px 15px rgba(0, 0, 0, 0.25);
+}
+.main-heading {
+    line-height: 6.5rem;
+    font-size: 3rem;
+}
+
+.main-heading h1{
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.gender-text {
+    position: relative;
+    top: 1rem;
+}
+.gender-section p {
+    margin-left: -1.3rem;
+}
+.gender-section > .male-section {
+    position: relative;
+    top: 0.5rem;
+}
+
+.gender-section > .female-section  {
+    position: relative;
+    top: -1rem;
+    left: 2rem;
+}
+

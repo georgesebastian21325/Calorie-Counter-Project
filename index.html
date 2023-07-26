@@ -1,30 +1,48 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Complete JavaScript Course</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calorie Calculator </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="output">Complete JavaScript Course</div>
-    <form id="myForm">
-        <div> Female
-            <input id="f" type="radio" name="gender"> Male
-            <input id="m" type="radio" name="gender"> </div>
-        <div> Weight
-            <input id="weight" type="number" value="150"> lbs </div>
-        <div> Height
-            <input id="heightFeet" type="number" value="5"> Feet
-            <input id="heightInches" type="number" value="6" max="11" min="0"> Inches </div>
-        <div> Age
-            <input id="age" type="number" value="30"> years </div>
-        <div> LifeStyle
-            <input id="lifeStyle" type="number" value="1" min="1" max="5"> 1=low activity 5 = High Activity </div>
-    </form>
-    <script>
-        //BMR = 66 + ( 6.2 × weight in pounds ) + ( 12.7 × height in inches ) – ( 6.76 × age in years )
-        //BMR = 655.1 + ( 4.35 × weight in pounds ) + ( 4.7 × height in inches ) - ( 4.7 × age in years )
-    </script>
-</body>
+    
+    <div class="container component-holder">
+        <!-- Upper Section -->  
+        <h1 class="main-heading text-center"> Calories Calculator </h1>
 
+        <div class="first-section w-100 h-25">
+
+            <!-- Age Input -->
+            <div class="row align-items-center px-4">
+                <div class="age-section col-auto">
+                  <p class="age-text my-1"> Age </p>
+                  <input type="password" id="inputPassword6" class="form-control">
+                </div>
+
+                            <!-- Gender Input -->
+            
+            <div class="gender-section col-auto form-check px-4">
+                <p class="gender-text px-4"> Gender </p>
+                <div class="male-section px-4">                     
+                    
+                    <input class="form-check-input male-radio" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> 
+                    <label for=""> Male </label>
+                </div>
+
+                <div class="female-section px-5 mx-4">
+                    
+                    <input class="form-check-input female-radio" type="radio" name="flexRadioDefault" id="flexRadioDefault2">    
+                    <label for=""> Female </label>
+
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
