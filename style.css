@@ -38,3 +38,61 @@
     left: 2rem;
 }
 
+.lbs-text {
+    position: relative;
+    top: -2rem;
+    left: 13.8rem;
+}
+
+.height-section {
+    position: relative;
+    top: -5.9rem;
+    left: 15.4rem;
+}
+
+.feet-text {
+    position: relative;
+    top: -2rem;
+    left: 13.8rem;
+}
+
+.inches-lifestyle-section {
+    position: relative;
+    top: -6.8rem;
+}
+
+.lifestyle-section {
+    position: relative;
+    top: -4.31rem;
+    left: 16.8rem;
+    width: 27%;
+}
+
+.low-text {
+    position: relative;
+    top: -2.4rem;
+    left: 9.2rem;
+    font-size: 0.75rem;
+}
+
+.high-text {
+    position: relative;
+    top: -3.30rem;
+    left: 9.2rem;
+    font-size: 0.75rem;
+}
+
+.calculate-btn {
+    position: relative;
+    top: -6.5rem;
+    left: 10rem;
+    width: 12rem;
+}
+
+.total-calories-section {
+    position:relative;
+    top: -6rem;
+    left: 7.5rem;
+    width: 17rem;
+}
+
