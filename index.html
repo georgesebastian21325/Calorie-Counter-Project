@@ -26,14 +26,12 @@
                     <p class="gender-text px-4 fw-bold"> Gender </p>
                     <!-- Male Section -->
                     <div class="male-section px-4">
-                        <input class="form-check-input male-radio" type="radio" name="flexRadioDefault"
-                            id="flexRadioDefault1" />
+                        <input class="form-check-input male-radio" type="radio" name="flexRadioDefault"id="flexRadioDefault1" value="male"/>
                         <label for=""> Male </label>
                     </div>
                     <!-- Female Section -->
                     <div class="female-section px-5 mx-4">
-                        <input class="form-check-input female-radio" type="radio" name="flexRadioDefault"
-                            id="flexRadioDefault2" />
+                        <input class="form-check-input female-radio" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="female" />
                         <label for=""> Female </label>
                     </div>
                 </div>
@@ -76,12 +74,14 @@
                     <button type="button" class="calculate-btn btn btn-dark"> Calculate </button>                    
                 </div>
                 <div class="total-calories-section">
-                    <p class="d-flex weight-text justify-content-center fw-bold">Total Calories</p>
-                    <input type="number" class="form-control" />
+                    <p class="d-flex weight-text justify-content-center fw-bold my-1">Total Calories</p>
+                    <input type="text" class="form-control" />
                 </div>
             </div>
         </div>
     </div>
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
