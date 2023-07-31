@@ -24,3 +24,4 @@ calculateBtn.addEventListener("click", function () {
     // Display the result in the Total Calories input field
     document.querySelector(".total-calories-section input").value = totalCalories;
 });
+
